@@ -23,7 +23,7 @@ Les alternatives : Bilbucket
 
 
 
-Commandes GIT :
+Commandes GIT :l
 commit
 branch
 checkout
@@ -45,5 +45,15 @@ Pour annuler un commit on peut utiliser la fonction "git reset HEAD^". On revien
 Une autre façon est de faire "git revert [branch]" pour créer un commit qui revient à la version d'avant.
 
 
-
+Informations sur les commandes GitBash :
+echo "# jkdfjgf" >> README.md    --> Avec cette commande on crée le fichier qui va être dans notre dossier local
+git init       --> Une fois qu'on est dans le bon dossier on lui dit qu'on veut travailler dans Git
+git add README.md      --> On met le fichier README dans la staging area. Si on veut mettre le dossier en entier "git add ."
+git commit -m "first commit"       --> On crée la nouvelle version du ou des fichiers qui sont dans la staging area
+git branch -M main        --> On change le nom de la branche principale.
+git remote add origin https://github.com/Rodolphe-74/jkdfjgf.git         --> On écrit le chemin de notre repository
+git push -u origin main       --> On envoie sur Github
+git commit -a -m "text" permet d'envoyer tout le dossier lié à la branche main
+git pull origin main récupère les fichiers non présents en local. 
+Quand on veut résoudre des conflits, il suffit de pull le fichier sur le github et de gérer les conflits sur notre notePad ou notre fichier.
 
