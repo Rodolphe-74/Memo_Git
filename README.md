@@ -56,4 +56,9 @@ git push -u origin main       --> On envoie sur Github
 git commit -a -m "text" permet d'envoyer tout le dossier lié à la branche main
 git pull origin main récupère les fichiers non présents en local. 
 Quand on veut résoudre des conflits, il suffit de pull le fichier sur le github et de gérer les conflits sur notre notePad ou notre fichier.
+git status permet de connaitre les fichiers chargés
+git log nous donne les différents commit que l'on a
+git checkout pour changer de fichier "head"
+git checkout main pour retourner au dernier fichier de la branche.
+git merge sert à fusionner deux branches et prend tous les fichiers de chacun et fait gérer les conflits s'il y en a
 
